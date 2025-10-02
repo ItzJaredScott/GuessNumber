@@ -1,0 +1,14 @@
+C:\Github\NumberGuessGame\NumberGuessGame\bin\Debug\net8.0\NumberGuessGame.exe
+C:\Github\NumberGuessGame\NumberGuessGame\bin\Debug\net8.0\NumberGuessGame.deps.json
+C:\Github\NumberGuessGame\NumberGuessGame\bin\Debug\net8.0\NumberGuessGame.runtimeconfig.json
+C:\Github\NumberGuessGame\NumberGuessGame\bin\Debug\net8.0\NumberGuessGame.dll
+C:\Github\NumberGuessGame\NumberGuessGame\bin\Debug\net8.0\NumberGuessGame.pdb
+C:\Github\NumberGuessGame\NumberGuessGame\obj\Debug\net8.0\NumberGuessGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\NumberGuessGame\NumberGuessGame\obj\Debug\net8.0\NumberGuessGame.AssemblyInfoInputs.cache
+C:\Github\NumberGuessGame\NumberGuessGame\obj\Debug\net8.0\NumberGuessGame.AssemblyInfo.cs
+C:\Github\NumberGuessGame\NumberGuessGame\obj\Debug\net8.0\NumberGuessGame.csproj.CoreCompileInputs.cache
+C:\Github\NumberGuessGame\NumberGuessGame\obj\Debug\net8.0\NumberGuessGame.dll
+C:\Github\NumberGuessGame\NumberGuessGame\obj\Debug\net8.0\refint\NumberGuessGame.dll
+C:\Github\NumberGuessGame\NumberGuessGame\obj\Debug\net8.0\NumberGuessGame.pdb
+C:\Github\NumberGuessGame\NumberGuessGame\obj\Debug\net8.0\NumberGuessGame.genruntimeconfig.cache
+C:\Github\NumberGuessGame\NumberGuessGame\obj\Debug\net8.0\ref\NumberGuessGame.dll
