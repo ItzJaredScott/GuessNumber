@@ -1,0 +1,51 @@
+
+START PROGRAM
+
+SET playing = true
+
+DO
+    DISPLAY "Choose difficulty: Easy (1-10), Medium (1-50), Hard (1-100)"
+    READ difficulty
+
+    SWITCH difficulty
+        CASE "Easy":
+            maxNumber = 10
+        CASE "Medium":
+            maxNumber = 50
+        CASE "Hard":
+            maxNumber = 100
+        DEFAULT:
+maxNumber = 100
+    END SWITCH
+
+    GENERATE random number between 1 and maxNumber → secretNumber
+    SET guessCount = 0
+    SET guessedCorrect = false
+
+    DO
+        PROMPT user: "Enter your guess:"
+        READ guess
+        INCREMENT guessCount
+
+        IF guess < secretNumber
+            DISPLAY "Too low, try again."
+        ELSE IF guess > secretNumber
+            DISPLAY "Too high, try again."
+        ELSE
+            DISPLAY "Correct! You guessed in [guessCount] tries."
+            SET guessedCorrect = true
+        END IF
+    WHILE guessedCorrect = false
+
+    DISPLAY "Play again? (Y/N)"
+    READ answer
+    IF answer = "Y"
+        playing = true
+    ELSE
+        playing = false
+    END IF
+
+WHILE playing = true
+
+DISPLAY "Thanks for playing!"
+END PROGRAM
