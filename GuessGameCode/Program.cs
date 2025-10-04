@@ -43,4 +43,36 @@ class NumberGuessingGame
             int guessCount = 0;
 
             do
-         
+            {
+                Console.Write($"Enter your guess (1-{max}): ");
+                while (!int.TryParse(Console.ReadLine(), out guess))
+                {
+                    Console.Write("Invalid input. Please enter a number: ");
+                }
+
+                guessCount++;
+
+                if (guess < numberToGuess)
+                {
+                    Console.WriteLine("Too low, try again.");
+                }
+                else if (guess > numberToGuess)
+                {
+                    Console.WriteLine("Too high, try again.");
+                }
+                else
+                {
+                    Console.WriteLine($"Correct! You guessed it in {guessCount} tries.");
+                }
+            }
+            while (guess != numberToGuess);
+
+            Console.Write("Would you like to play again? (Y/N): ");
+            string playAgainInput = Console.ReadLine().ToUpper();
+            playAgain = (playAgainInput == "Y");
+
+        } while (playAgain);
+
+        Console.WriteLine("Thanks for playing!");
+    }
+}

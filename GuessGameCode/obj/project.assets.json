@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\NumberGuessGame\\GuessGameCode\\GuessGameCode.csproj",
+      "projectUniqueName": "C:\\Github\\GuessNumber\\GuessGameCode\\GuessGameCode.csproj",
       "projectName": "GuessGameCode",
-      "projectPath": "C:\\Github\\NumberGuessGame\\GuessGameCode\\GuessGameCode.csproj",
+      "projectPath": "C:\\Github\\GuessNumber\\GuessGameCode\\GuessGameCode.csproj",
       "packagesPath": "C:\\Users\\katet\\.nuget\\packages\\",
-      "outputPath": "C:\\Github\\NumberGuessGame\\GuessGameCode\\obj\\",
+      "outputPath": "C:\\Github\\GuessNumber\\GuessGameCode\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
